@@ -13,7 +13,7 @@
     </div>
 
     <div id="navbarExampleTransparentExample" class="navbar-menu ">
-        <a class="navbar-item" href="./inicio.html">
+        <a class="navbar-item" href="{{asset('inicio')}}">
             <img src="./assets/logo/home-logo.svg" width="" >
         </a>
 
@@ -21,19 +21,19 @@
 
             <div class="navbar-item has-dropdown is-hoverable">
 
-                <a class="navbar-link has-background-link-light">
+                <span class="navbar-link has-background-link-light">
                     Gestionar
-                </a>
+                </span>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="./usuarios.html">
+                    <a class="navbar-item" href="{{asset('usuarios')}}">
                         Usuarios
                     </a>
 
-                    <a class="navbar-item" href="./proveedores.html">
+                    <a class="navbar-item" href="{{asset('proveedores')}}">
                         Proveedores
                     </a>
 
-                    <a class="navbar-item" href="./vehiculos.html">
+                    <a class="navbar-item" href="{{asset('vehiculos')}}">
                         Vehiculos
                     </a>
                 </div>
@@ -41,12 +41,12 @@
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link has-background-link-light">
+                <span class="navbar-link has-background-link-light">
                     Mantenimiento
-                </a>
+                </span>
 
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="./mantenimiento.html">
+                    <a class="navbar-item" href="{{asset('mantenimiento')}}">
                         Gestionar mantenimiento
                     </a>
                 </div>
@@ -54,24 +54,24 @@
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link has-background-link-light">
+                <span class="navbar-link has-background-link-light">
                     Documentacion
-                </a>
+                </span>
 
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="./documentacion.html">
+                    <a class="navbar-item" href="{{asset('documentacion')}}">
                         Gestionar documentacion
                     </a>
                 </div>
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link has-background-link-light">
+                <span class="navbar-link has-background-link-light">
                     Normativas
-                </a>
+                </span>
 
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="./normativa.html">
+                    <a class="navbar-item" href="{{asset('normativa')}}">
                         Ver normativas
                     </a>
                 </div>
@@ -79,18 +79,18 @@
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link has-background-link-light">
+                <span class="navbar-link has-background-link-light">
                     Rutas
-                </a>
+                </span>
 
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="./satrack.html">
+                    <a class="navbar-item" href="{{asset('rutas/satrack')}}">
                         Satrack
                     </a>
-                    <a class="navbar-item" href="./peajes.html">
+                    <a class="navbar-item" href="{{asset('rutas/peajes')}}">
                         Peajes
                     </a>
-                    <a class="navbar-item" href="./cierrevial.html">
+                    <a class="navbar-item" href="{{asset('rutas/cierrevial')}}">
                         Cierre vial
                     </a>
 
@@ -98,12 +98,12 @@
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link has-background-link-light">
+                <span class="navbar-link has-background-link-light">
                     Atencion al cliente
-                </a>
+                </span>
 
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="./atencionalcliente.html">
+                    <a class="navbar-item" href="{{asset('atencioncliente')}}">
                         Preguntas,  reclamos, sugerencias
                     </a>
                 </div>
