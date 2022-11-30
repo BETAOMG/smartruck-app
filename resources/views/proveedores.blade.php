@@ -33,7 +33,7 @@
                         </p>
 
                         <button class="button button-add js-modal-trigger" data-target="modal-add" type="button" style="width: 2.5rem;">
-                            <img src="./assets/images/add.png" alt="Agregar">
+                            <img src="{{ asset("images/add.png") }}" alt="Agregar">
                             <div class="overlay">
                                 <span class="span-add has-text-white">Agregar</span>
                             </div>
@@ -62,12 +62,12 @@
                                 <a class="navbar-link"></a>
                                 <div class="navbar-dropdown">
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                        <img src="./assets/images/editar.png" alt="">
+                                        <img src="{{ asset("images/edit.png") }}" alt="">
                                         Editar
                                     </button>
 
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                        <img src="./assets/images/eliminar.png" alt="">
+                                        <img src="{{ asset("images/inactivate.png") }}" alt="">
                                         Eliminar
                                     </button>
                                 </div>
@@ -87,12 +87,12 @@
                                 <a class="navbar-link"></a>
                                 <div class="navbar-dropdown">
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                        <img src="./assets/images/editar.png" alt="">
+                                        <img src="{{ asset("images/edit.png") }}" alt="">
                                         Editar
                                     </button>
 
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                        <img src="./assets/images/eliminar.png" alt="">
+                                        <img src="{{ asset("images/inactivate.png") }}" alt="">
                                         Eliminar
                                     </button>
                                 </div>
@@ -112,12 +112,12 @@
                                 <a class="navbar-link"></a>
                                 <div class="navbar-dropdown">
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                        <img src="./assets/images/editar.png" alt="">
+                                        <img src="{{ asset("images/edit.png") }}" alt="">
                                         Editar
                                     </button>
 
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                        <img src="./assets/images/eliminar.png" alt="">
+                                        <img src="{{ asset("images/inactivate.png") }}" alt="">
                                         Eliminar
                                     </button>
                                 </div>
@@ -136,12 +136,12 @@
                                 <a class="navbar-link"></a>
                                 <div class="navbar-dropdown">
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                        <img src="./assets/images/editar.png" alt="">
+                                        <img src="{{ asset("images/edit.png") }}" alt="">
                                         Editar
                                     </button>
 
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                        <img src="./assets/images/eliminar.png" alt="">
+                                        <img src="{{ asset("images/inactivate.png") }}" alt="">
                                         Eliminar
                                     </button>
                                 </div>
@@ -161,12 +161,12 @@
                                 <a class="navbar-link"></a>
                                 <div class="navbar-dropdown">
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                        <img src="./assets/images/editar.png" alt="">
+                                        <img src="{{ asset("images/edit.png") }}" alt="">
                                         Editar
                                     </button>
 
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                        <img src="./assets/images/eliminar.png" alt="">
+                                        <img src="{{ asset("images/inactivate.png") }}" alt="">
                                         Eliminar
                                     </button>
                                 </div>
@@ -185,12 +185,12 @@
                                 <a class="navbar-link"></a>
                                 <div class="navbar-dropdown">
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                        <img src="./assets/images/editar.png" alt="">
+                                        <img src="{{ asset("images/edit.png") }}" alt="">
                                         Editar
                                     </button>
 
                                     <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                        <img src="./assets/images/eliminar.png" alt="">
+                                        <img src="{{ asset("images/inactivate.png") }}" alt="">
                                         Eliminar
                                     </button>
                                 </div>
@@ -317,7 +317,7 @@
 
                     <div class="container-blue">
 
-                        <h2 class="is-text-align-center title is-2 has-text-white">Registrar proveedor</h2>
+                        <h2 class="title is-2 has-text-white has-text-centered">Registrar proveedor</h2>
 
 
                         <form action="">

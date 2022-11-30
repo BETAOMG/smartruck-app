@@ -6,8 +6,9 @@
 
     <title>Smart Truck - Usuarios</title>
 
-    <!-- Fonts -->
+    <!-- Favicon -->
 
+    <link rel="shortcut icon" href="images/logocuted.svg">
 
     <!-- Styles -->
     @vite(['resources/css/app.css'])
@@ -73,15 +74,14 @@
                             <a class="navbar-link"></a>
                             <div class="navbar-dropdown">
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                    <img src="./assets/images/editar.png" alt="">
+                                    <img src="images/edit.png" alt="">
                                     Editar
                                 </button>
 
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                    <img src="./assets/images/eliminar.png" alt="">
-                                    Eliminar
+                                    <img src="images/inactivate.png" alt="">
+                                    Inactivar
                                 </button>
-
                             </div>
                         </div>
                     </td>
@@ -99,15 +99,14 @@
                             <a class="navbar-link"></a>
                             <div class="navbar-dropdown">
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                    <img src="./assets/images/editar.png" alt="">
+                                    <img src="images/edit.png" alt="">
                                     Editar
                                 </button>
 
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                    <img src="./assets/images/eliminar.png" alt="">
-                                    Eliminar
+                                    <img src="images/inactivate.png" alt="">
+                                    Inactivar
                                 </button>
-
                             </div>
                         </div>
                     </td>
@@ -125,15 +124,14 @@
                             <a class="navbar-link"></a>
                             <div class="navbar-dropdown">
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                    <img src="./assets/images/editar.png" alt="">
+                                    <img src="images/edit.png" alt="">
                                     Editar
                                 </button>
 
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                    <img src="./assets/images/eliminar.png" alt="">
-                                    Eliminar
+                                    <img src="images/inactivate.png" alt="">
+                                    Inactivar
                                 </button>
-
                             </div>
                         </div>
                     </td>
@@ -152,15 +150,14 @@
                             <a class="navbar-link"></a>
                             <div class="navbar-dropdown">
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                    <img src="./assets/images/editar.png" alt="">
+                                    <img src="images/edit.png" alt="">
                                     Editar
                                 </button>
 
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                    <img src="./assets/images/eliminar.png" alt="">
-                                    Eliminar
+                                    <img src="images/inactivate.png" alt="">
+                                    Inactivar
                                 </button>
-
                             </div>
                         </div>
                     </td>
@@ -176,15 +173,14 @@
                             <a class="navbar-link"></a>
                             <div class="navbar-dropdown">
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                    <img src="./assets/images/editar.png" alt="">
+                                    <img src="images/edit.png" alt="">
                                     Editar
                                 </button>
 
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                    <img src="./assets/images/eliminar.png" alt="">
-                                    Eliminar
+                                    <img src="images/inactivate.png" alt="">
+                                    Inactivar
                                 </button>
-
                             </div>
                         </div>
                     </td>
@@ -203,13 +199,13 @@
                             <a class="navbar-link"></a>
                             <div class="navbar-dropdown">
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-edit">
-                                    <img src="./assets/images/editar.png" alt="">
+                                    <img src="images/edit.png" alt="">
                                     Editar
                                 </button>
 
                                 <button class="js-modal-trigger button navbar-item" data-target="modal-delete">
-                                    <img src="./assets/images/eliminar.png" alt="">
-                                    Eliminar
+                                    <img src="images/inactivate.png" alt="">
+                                    Inactivar
                                 </button>
                             </div>
                         </div>

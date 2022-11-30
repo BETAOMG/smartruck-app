@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/inicio', function () {
     return view('inicio');
 });
 
@@ -55,4 +55,8 @@ Route::get('/rutas/cierrevial', function () {
 
 Route::get('/atencioncliente', function () {
     return view('atencioncliente');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });

@@ -1,5 +1,5 @@
 <div class="container-logo">
-    <img src="./assets/images/logo-dark.svg" alt="Smarttruck">
+    <img src="{{ asset("images/logo-dark.svg") }}" alt="Smarttruck">
 </div>
 
 <nav class="navbar nav-bar-container" role="navigation" aria-label="main navigation" >
@@ -13,8 +13,8 @@
     </div>
 
     <div id="navbarExampleTransparentExample" class="navbar-menu ">
-        <a class="navbar-item" href="{{asset('inicio')}}">
-            <img src="./assets/logo/home-logo.svg" width="" >
+        <a class="navbar-item" href="{{('inicio')}}">
+            <img src="{{ asset("logo/home-logo.svg") }}" width="" >
         </a>
 
         <div class="navbar-start">
@@ -113,7 +113,7 @@
         <div class="navbar-end">
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link" href="#">
-                    <img class="logo-perfil" src="./assets/logo/github-logo.svg" alt="" >
+                    <img class="logo-perfil" src="{{asset('images/user.svg')}}" alt="" >
                 </a>
                 <div class="navbar-dropdown is-boxed">
                     <a class="navbar-item" href="#">
