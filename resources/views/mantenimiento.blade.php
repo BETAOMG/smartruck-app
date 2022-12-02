@@ -32,7 +32,7 @@
                         </p>
 
                         <button class="button button-add js-modal-trigger" data-target="modal-add" type="button" style="width: 2.5rem;">
-                            <img src="./assets/images/add.png" alt="Agregar">
+                            <img src="{{asset('images/add')}}" alt="Agregar">
                             <div class="overlay">
                                 <span class="span-add has-text-white">Agregar</span>
                             </div>
